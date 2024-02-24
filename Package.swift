@@ -11,7 +11,6 @@ let package = Package(
   products: [
     .library(
       name: "CodeMirror-SwiftUI",
-      type: .dynamic,
       targets: ["CodeMirror-SwiftUI"]),
   ],
   dependencies: [
